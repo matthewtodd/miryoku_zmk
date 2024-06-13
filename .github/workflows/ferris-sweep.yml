@@ -16,3 +16,5 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["cradio_left","cradio_right"]'
+      kconfig: '["CONFIG_ZMK_MOUSE=y"]'
+      branches: '["petejohanson/zmk/feat/pointers-move-scroll"]'
